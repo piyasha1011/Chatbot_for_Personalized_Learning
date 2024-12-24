@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - greet
+  - mood_great
+  - mood_unhappy
+  - affirm
+  - deny
+  - play_video
+  - course_details
+  - recommend_resources
+  - search
+  - goodbye
+
+entities:
+  - subject
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_happy:
+    - text: "I'm glad to hear that!"
+  utter_cheer_up:
+    - text: "Don't worry, things will get better!"
+  utter_did_that_help:
+    - text: "Did that help?"
+  utter_goodbye:
+    - text: "Goodbye! Take care!"
+  action_video:
+    - text: "Wait... Playing your video."
+  action_search:
+    - text: "I'm searching for information..."
+  action_google_classroom_content:
+    - text: "Here are your courses: {course_names}"
+
+actions:
+  - action_video
+  - action_owner
+  - action_search
+  - action_recommend_resources
+  - action_google_classroom_content
+
