@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
 # Set your OpenAI API key
-openai.api_key = "6e9ebc345a79234fcd1fceaa6c581a20c879fa7a"  # Place your OpenAI API key here
+openai.api_key = "### "  # Place your OpenAI API key here #confidential 
 
 # Google Classroom API setup
 SCOPES = ['https://www.googleapis.com/auth/classroom.courses.readonly']
