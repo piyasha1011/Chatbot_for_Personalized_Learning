@@ -1,0 +1,34 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi
+      - Hey
+      - Good morning
+      - Howdy
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - See you later
+      - Bye
+
+  - intent: course_details
+    examples: |
+      - What are my courses?
+      - Show me my classes
+      - Tell me about my courses
+
+  - intent: recommend_resources
+    examples: |
+      - I need resources for mathematics
+      - Show me Python tutorials
+      - Recommend me physics resources
+
+  - intent: search
+    examples: |
+      - What is quantum computing?
+      - Tell me about black holes
+      - What is machine learning?

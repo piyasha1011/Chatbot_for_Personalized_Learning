@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+  - rule: respond to course details request
+    steps:
+      - intent: course_details
+      - action: action_google_classroom_content
+
+  - rule: respond to resource recommendation request
+    steps:
+      - intent: recommend_resources
+      - action: action_recommend_resources
+
+  - rule: respond to search request
+    steps:
+      - intent: search
+      - action: action_search
